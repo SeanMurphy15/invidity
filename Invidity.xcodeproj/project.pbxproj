@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF8A2FA91D83573B00F128C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2FA81D83573B00F128C9 /* AppDelegate.swift */; };
+		FF8A2FAB1D83573B00F128C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2FAA1D83573B00F128C9 /* ViewController.swift */; };
+		FF8A2FAE1D83573B00F128C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8A2FAC1D83573B00F128C9 /* Main.storyboard */; };
+		FF8A2FB01D83573B00F128C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8A2FAF1D83573B00F128C9 /* Assets.xcassets */; };
+		FF8A2FBB1D83573B00F128C9 /* InvidityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2FBA1D83573B00F128C9 /* InvidityTests.swift */; };
+		FF8A2FC61D83573B00F128C9 /* InvidityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8A2FC51D83573B00F128C9 /* InvidityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF8A2FB71D83573B00F128C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8A2F9D1D83573B00F128C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8A2FA41D83573B00F128C9;
+			remoteInfo = Invidity;
+		};
+		FF8A2FC21D83573B00F128C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8A2F9D1D83573B00F128C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8A2FA41D83573B00F128C9;
+			remoteInfo = Invidity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF8A2FA51D83573B00F128C9 /* Invidity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invidity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8A2FA81D83573B00F128C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF8A2FAA1D83573B00F128C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF8A2FAD1D83573B00F128C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8A2FAF1D83573B00F128C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8A2FB11D83573B00F128C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8A2FB61D83573B00F128C9 /* InvidityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvidityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8A2FBA1D83573B00F128C9 /* InvidityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvidityTests.swift; sourceTree = "<group>"; };
+		FF8A2FBC1D83573B00F128C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8A2FC11D83573B00F128C9 /* InvidityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvidityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8A2FC51D83573B00F128C9 /* InvidityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvidityUITests.swift; sourceTree = "<group>"; };
+		FF8A2FC71D83573B00F128C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8A2FA21D83573B00F128C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A2FB31D83573B00F128C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A2FBE1D83573B00F128C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8A2F9C1D83573B00F128C9 = {
+			isa = PBXGroup;
+			children = (
+				FF8A2FA71D83573B00F128C9 /* Invidity */,
+				FF8A2FB91D83573B00F128C9 /* InvidityTests */,
+				FF8A2FC41D83573B00F128C9 /* InvidityUITests */,
+				FF8A2FA61D83573B00F128C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8A2FA61D83573B00F128C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A2FA51D83573B00F128C9 /* Invidity.app */,
+				FF8A2FB61D83573B00F128C9 /* InvidityTests.xctest */,
+				FF8A2FC11D83573B00F128C9 /* InvidityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8A2FA71D83573B00F128C9 /* Invidity */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A2FA81D83573B00F128C9 /* AppDelegate.swift */,
+				FF8A2FAA1D83573B00F128C9 /* ViewController.swift */,
+				FF8A2FAC1D83573B00F128C9 /* Main.storyboard */,
+				FF8A2FAF1D83573B00F128C9 /* Assets.xcassets */,
+				FF8A2FB11D83573B00F128C9 /* Info.plist */,
+			);
+			path = Invidity;
+			sourceTree = "<group>";
+		};
+		FF8A2FB91D83573B00F128C9 /* InvidityTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A2FBA1D83573B00F128C9 /* InvidityTests.swift */,
+				FF8A2FBC1D83573B00F128C9 /* Info.plist */,
+			);
+			path = InvidityTests;
+			sourceTree = "<group>";
+		};
+		FF8A2FC41D83573B00F128C9 /* InvidityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A2FC51D83573B00F128C9 /* InvidityUITests.swift */,
+				FF8A2FC71D83573B00F128C9 /* Info.plist */,
+			);
+			path = InvidityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8A2FA41D83573B00F128C9 /* Invidity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8A2FCA1D83573B00F128C9 /* Build configuration list for PBXNativeTarget "Invidity" */;
+			buildPhases = (
+				FF8A2FA11D83573B00F128C9 /* Sources */,
+				FF8A2FA21D83573B00F128C9 /* Frameworks */,
+				FF8A2FA31D83573B00F128C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Invidity;
+			productName = Invidity;
+			productReference = FF8A2FA51D83573B00F128C9 /* Invidity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF8A2FB51D83573B00F128C9 /* InvidityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8A2FCD1D83573B00F128C9 /* Build configuration list for PBXNativeTarget "InvidityTests" */;
+			buildPhases = (
+				FF8A2FB21D83573B00F128C9 /* Sources */,
+				FF8A2FB31D83573B00F128C9 /* Frameworks */,
+				FF8A2FB41D83573B00F128C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8A2FB81D83573B00F128C9 /* PBXTargetDependency */,
+			);
+			name = InvidityTests;
+			productName = InvidityTests;
+			productReference = FF8A2FB61D83573B00F128C9 /* InvidityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF8A2FC01D83573B00F128C9 /* InvidityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8A2FD01D83573B00F128C9 /* Build configuration list for PBXNativeTarget "InvidityUITests" */;
+			buildPhases = (
+				FF8A2FBD1D83573B00F128C9 /* Sources */,
+				FF8A2FBE1D83573B00F128C9 /* Frameworks */,
+				FF8A2FBF1D83573B00F128C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8A2FC31D83573B00F128C9 /* PBXTargetDependency */,
+			);
+			name = InvidityUITests;
+			productName = InvidityUITests;
+			productReference = FF8A2FC11D83573B00F128C9 /* InvidityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8A2F9D1D83573B00F128C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sean Murphy";
+				TargetAttributes = {
+					FF8A2FA41D83573B00F128C9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FF8A2FB51D83573B00F128C9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF8A2FA41D83573B00F128C9;
+					};
+					FF8A2FC01D83573B00F128C9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF8A2FA41D83573B00F128C9;
+					};
+				};
+			};
+			buildConfigurationList = FF8A2FA01D83573B00F128C9 /* Build configuration list for PBXProject "Invidity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8A2F9C1D83573B00F128C9;
+			productRefGroup = FF8A2FA61D83573B00F128C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8A2FA41D83573B00F128C9 /* Invidity */,
+				FF8A2FB51D83573B00F128C9 /* InvidityTests */,
+				FF8A2FC01D83573B00F128C9 /* InvidityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8A2FA31D83573B00F128C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A2FB01D83573B00F128C9 /* Assets.xcassets in Resources */,
+				FF8A2FAE1D83573B00F128C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A2FB41D83573B00F128C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A2FBF1D83573B00F128C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8A2FA11D83573B00F128C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A2FAB1D83573B00F128C9 /* ViewController.swift in Sources */,
+				FF8A2FA91D83573B00F128C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A2FB21D83573B00F128C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A2FBB1D83573B00F128C9 /* InvidityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A2FBD1D83573B00F128C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8A2FC61D83573B00F128C9 /* InvidityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF8A2FB81D83573B00F128C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8A2FA41D83573B00F128C9 /* Invidity */;
+			targetProxy = FF8A2FB71D83573B00F128C9 /* PBXContainerItemProxy */;
+		};
+		FF8A2FC31D83573B00F128C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8A2FA41D83573B00F128C9 /* Invidity */;
+			targetProxy = FF8A2FC21D83573B00F128C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF8A2FAC1D83573B00F128C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8A2FAD1D83573B00F128C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8A2FC81D83573B00F128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		FF8A2FC91D83573B00F128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8A2FCB1D83573B00F128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Invidity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.Invidity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF8A2FCC1D83573B00F128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Invidity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.Invidity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF8A2FCE1D83573B00F128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InvidityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.InvidityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Invidity.app/Invidity";
+			};
+			name = Debug;
+		};
+		FF8A2FCF1D83573B00F128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InvidityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.InvidityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Invidity.app/Invidity";
+			};
+			name = Release;
+		};
+		FF8A2FD11D83573B00F128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InvidityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.InvidityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Invidity;
+			};
+			name = Debug;
+		};
+		FF8A2FD21D83573B00F128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InvidityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.InvidityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Invidity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8A2FA01D83573B00F128C9 /* Build configuration list for PBXProject "Invidity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8A2FC81D83573B00F128C9 /* Debug */,
+				FF8A2FC91D83573B00F128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8A2FCA1D83573B00F128C9 /* Build configuration list for PBXNativeTarget "Invidity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8A2FCB1D83573B00F128C9 /* Debug */,
+				FF8A2FCC1D83573B00F128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8A2FCD1D83573B00F128C9 /* Build configuration list for PBXNativeTarget "InvidityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8A2FCE1D83573B00F128C9 /* Debug */,
+				FF8A2FCF1D83573B00F128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8A2FD01D83573B00F128C9 /* Build configuration list for PBXNativeTarget "InvidityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8A2FD11D83573B00F128C9 /* Debug */,
+				FF8A2FD21D83573B00F128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8A2F9D1D83573B00F128C9 /* Project object */;
+}
